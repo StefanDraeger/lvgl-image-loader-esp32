@@ -18,7 +18,6 @@ as LVGL image objects on ESP32 with PSRAM.
 |------------|---------|
 | LVGL       | >= 9.0  |
 | JPEGDEC    | >= 1.0  |
-| ArduinoJson| >= 7.0  |
 
 ## Hardware
 
