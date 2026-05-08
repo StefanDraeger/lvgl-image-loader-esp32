@@ -12,6 +12,19 @@ as LVGL image objects on ESP32 with PSRAM.
 - Grayscale conversion for e-paper / RLCD displays
 - Works with LVGL v9
 
+## Supported Hardware
+
+| Board                        | PSRAM | Status     |
+|------------------------------|-------|------------|
+| Waveshare ESP32-S3 RLCD 4.2" | ✅    | ✅ Tested  |
+| ESP32-S3 with PSRAM          | ✅    | ✅ Tested  |
+| ESP32 with PSRAM             | ✅    | ⚠️ Untested|
+| CYD ESP32-2432S028R          | ❌    | ❌ No PSRAM|
+
+> **⚠️ Note:** This library requires an ESP32 with PSRAM.
+> Boards without PSRAM (e.g. CYD ESP32-2432S028R) are
+> not supported.
+
 ## Requirements
 
 | Library    | Version |
